@@ -18,8 +18,8 @@ export default function Home() {
               <Heart className="size-4 text-[#c98f92]" aria-hidden="true" />
               cafe chaleureux a Neuilly-sur-Seine
             </p>
-            <h1 className="font-hand max-w-3xl text-6xl font-normal leading-[0.9] text-[#2f211c] sm:text-8xl">
-              Kitty Cafe
+            <h1 className="font-hand max-w-3xl text-5xl font-normal leading-[0.98] text-[#2f211c] sm:text-7xl">
+              La dignite commence avec un petit cafe.
             </h1>
             <p className="mt-7 max-w-xl text-lg font-light leading-8 text-[#5d463b]">
               Un cafe doux ou l'on peut se detendre en compagnie de chats,

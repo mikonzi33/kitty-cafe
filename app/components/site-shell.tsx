@@ -12,9 +12,13 @@ export function KittyLogo() {
     <a
       href="/"
       aria-label="Kitty Cafe"
-      className="block h-[84px] w-[270px] -rotate-1 rounded-[10px] border border-[#ead7ca] bg-[#fffdf7] bg-[url('/kitty-poster.png')] bg-[length:375px_auto] bg-[position:center_8px] bg-no-repeat shadow-[0_10px_24px_rgba(96,65,42,0.12)]"
+      className="block rounded-[18px] bg-[#fffdf7]/88 p-2 shadow-[0_10px_24px_rgba(96,65,42,0.12)]"
     >
-      <span className="sr-only">Kitty Cafe</span>
+      <img
+        src="/kitty-cafe-logo.png"
+        alt="Kitty Cafe"
+        className="h-14 w-[210px] object-contain sm:h-16 sm:w-[260px]"
+      />
     </a>
   );
 }
@@ -56,6 +60,18 @@ export function PageFrame({ children }: { children: React.ReactNode }) {
     <main className="min-h-screen bg-[#f5e7da] text-[#3a2922]">
       <SiteHeader />
       {children}
+      <footer className="border-t border-[#ead7ca] bg-[#fff8f1] px-4 py-6 text-center text-sm font-light text-[#79584a]">
+        Ce site exemple est une oeuvre de{' '}
+        <a
+          href="https://mefxdata.com"
+          className="font-normal text-[#5b3f32] underline decoration-[#d8aaa6] underline-offset-4 hover:text-[#9a6961]"
+          target="_blank"
+          rel="noreferrer"
+        >
+          mefxdata
+        </a>
+        .
+      </footer>
     </main>
   );
 }
