@@ -13,9 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'BANA Kitty Cafe',
+  title: 'Kitty Cafe',
   description:
-    'BANA Kitty Cafe homepage with QR menu, bilan, and compte de resultat.',
+    'Kitty Cafe homepage with QR menu, bilan, and compte de resultat.',
 };
 
 export default function RootLayout({
