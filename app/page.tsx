@@ -1,4 +1,4 @@
-import { Clock, Heart, MapPin, PawPrint } from 'lucide-react';
+import { Camera, Clock, Heart, MapPin, Music2, PawPrint } from 'lucide-react';
 import { KittyLogo, PageFrame, PaperCard } from './components/site-shell';
 
 export default function Home() {
@@ -82,6 +82,34 @@ export default function Home() {
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
           />
+        </div>
+        <div className="mt-6 rounded-[28px] border border-[#f1cbd2] bg-[#fff4f4] p-6 text-center shadow-[0_18px_40px_rgba(96,65,42,0.08)]">
+          <p className="font-hand text-4xl font-normal text-[#2f211c]">
+            Suivez-nous sur Instagram et TikTok
+          </p>
+          <p className="mt-2 text-sm font-light text-[#79584a]">
+            Les moments doux du cafe, les chats du jour et les nouveautes.
+          </p>
+          <div className="mt-5 flex flex-wrap justify-center gap-3">
+            <a
+              href="https://www.instagram.com/"
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex items-center gap-2 rounded-full bg-white px-5 py-3 text-sm font-light text-[#5b3f32] shadow-sm hover:bg-[#ffe8ee]"
+            >
+              <Camera className="size-5 text-[#c45f81]" aria-hidden="true" />
+              Instagram
+            </a>
+            <a
+              href="https://www.tiktok.com/"
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex items-center gap-2 rounded-full bg-white px-5 py-3 text-sm font-light text-[#5b3f32] shadow-sm hover:bg-[#ffe8ee]"
+            >
+              <Music2 className="size-5 text-[#2f211c]" aria-hidden="true" />
+              TikTok
+            </a>
+          </div>
         </div>
       </section>
     </PageFrame>
