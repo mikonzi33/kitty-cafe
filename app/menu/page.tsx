@@ -7,7 +7,7 @@ export default function MenuPage() {
         <div className="rounded-[32px] border border-[#f4d9df] bg-[#fffaf4] p-3 shadow-[0_18px_40px_rgba(96,65,42,0.1)]">
           <img
             src="/menu-qr.png"
-            alt="Kitty Cafe QR menu"
+            alt="Menu QR Kitty Café"
             className="w-full max-w-[680px] rounded-[24px] object-contain"
           />
         </div>

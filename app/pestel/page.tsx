@@ -7,7 +7,7 @@ export default function PestelPage() {
         <div className="rounded-[32px] border border-[#ead7ca] bg-[#fffaf4] p-3 shadow-[0_18px_40px_rgba(96,65,42,0.1)]">
           <img
             src="/pestel.png"
-            alt="Kitty Cafe PESTEL analysis"
+            alt="Analyse PESTEL Kitty Café"
             className="w-full max-w-[820px] rounded-[24px] object-contain"
           />
         </div>

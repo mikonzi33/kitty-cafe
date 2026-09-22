@@ -13,7 +13,7 @@ export default function BilanPage() {
             Bilan
           </h1>
           <p className="mb-7 mt-3 text-sm font-light leading-6 text-[#684d40]">
-            Repartition de l'actif et du passif au lancement du Kitty Cafe.
+            Répartition de l'actif et du passif au lancement du Kitty Café.
           </p>
           <div className="grid gap-5 md:grid-cols-2">
             <section>

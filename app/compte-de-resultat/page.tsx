@@ -44,11 +44,11 @@ export default function ResultatPage() {
             performance annuelle
           </p>
           <h1 className="font-hand text-6xl font-normal text-[#2f211c]">
-            Compte de resultat
+            Compte de résultat
           </h1>
           <p className="mb-7 mt-3 text-sm font-light leading-6 text-[#684d40]">
-            Presentation des revenus, charges, impots et resultat de l'exercice
-            du Kitty Cafe.
+            Présentation des revenus, charges, impôts et résultat de l'exercice
+            du Kitty Café.
           </p>
           <FinanceRows rows={compteResultat} />
 
@@ -61,7 +61,7 @@ export default function ResultatPage() {
             </section>
             <section>
               <h2 className="font-hand mb-3 text-3xl font-normal text-[#2f211c]">
-                Services exterieurs
+                Services extérieurs
               </h2>
               <FinanceRows rows={servicesExterieurs} />
             </section>

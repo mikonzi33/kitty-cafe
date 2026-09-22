@@ -4,7 +4,8 @@ const rubriqueLinks = [
   ['Accueil', '/'],
   ['Menu QR', '/menu'],
   ['Bilan', '/bilan'],
-  ['Compte de resultat', '/compte-de-resultat'],
+  ['Compte de résultat', '/compte-de-resultat'],
+  ['BFR', '/bfr'],
   ['PESTEL', '/pestel'],
 ];
 
@@ -12,12 +13,12 @@ export function KittyLogo() {
   return (
     <a
       href="/"
-      aria-label="Kitty Cafe"
+      aria-label="Kitty Café"
       className="block rounded-[18px] bg-[#fffdf7]/88 p-2 shadow-[0_10px_24px_rgba(96,65,42,0.12)]"
     >
       <img
         src="/kitty-cafe-logo.png"
-        alt="Kitty Cafe"
+        alt="Kitty Café"
         className="h-14 w-[210px] object-contain sm:h-16 sm:w-[260px]"
       />
     </a>
@@ -62,7 +63,7 @@ export function PageFrame({ children }: { children: React.ReactNode }) {
       <SiteHeader />
       {children}
       <footer className="border-t border-[#ead7ca] bg-[#fff8f1] px-4 py-6 text-center text-sm font-light text-[#79584a]">
-        Ce site exemple est une oeuvre de{' '}
+        Ce site exemple est une œuvre de{' '}
         <a
           href="https://mefxdata.com"
           className="font-normal text-[#5b3f32] underline decoration-[#d8aaa6] underline-offset-4 hover:text-[#9a6961]"

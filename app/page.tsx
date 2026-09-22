@@ -16,21 +16,21 @@ export default function Home() {
             </div>
             <p className="mb-5 flex w-fit items-center gap-2 rounded-full bg-white/72 px-4 py-2 text-sm font-light text-[#79584a] shadow-sm">
               <Heart className="size-4 text-[#c98f92]" aria-hidden="true" />
-              cafe chaleureux a Neuilly-sur-Seine
+              café chaleureux à Neuilly-sur-Seine
             </p>
             <h1 className="font-hand max-w-3xl text-5xl font-normal leading-[0.98] text-[#2f211c] sm:text-7xl">
-              La dignite commence avec un petit cafe.
+              La journée commence avec un petit café.
             </h1>
             <p className="mt-7 max-w-xl text-lg font-light leading-8 text-[#5d463b]">
-              Un cafe doux ou l'on peut se detendre en compagnie de chats,
-              avec boissons chaudes, patisseries et une ambiance calme.
+              Un café doux où l'on peut se détendre en compagnie de chats,
+              avec boissons chaudes, pâtisseries et une ambiance calme.
             </p>
           </div>
 
           <aside className="self-end rounded-[30px] border border-white/70 bg-[#fffaf4]/82 p-4 shadow-[0_22px_70px_rgba(91,63,50,0.2)] backdrop-blur-md">
             <img
               src="/kitty-poster.png"
-              alt="Kitty Cafe poster"
+              alt="Poster Kitty Café"
               className="aspect-[0.72] w-full rounded-[22px] object-cover"
             />
           </aside>
@@ -44,9 +44,9 @@ export default function Home() {
             Concept
           </h2>
           <p className="mt-2 text-sm font-light leading-6 text-[#684d40]">
-            Des boissons chaudes, des boissons froides et des patisseries dans
+            Des boissons chaudes, des boissons froides et des pâtisseries dans
             une ambiance douce et conviviale. Les chats proviennent d'une
-            association et peuvent etre adoptes.
+            association et peuvent être adoptés.
           </p>
         </PaperCard>
 
@@ -56,9 +56,9 @@ export default function Home() {
             Horaires
           </h2>
           <p className="mt-2 text-sm font-light leading-6 text-[#684d40]">
-            Ouvert de 9h00 a 17h00.
+            Ouvert de 9h00 à 17h00.
             <br />
-            Ferme le lundi et le mardi.
+            Fermé le lundi et le mardi.
           </p>
         </PaperCard>
 
@@ -88,7 +88,7 @@ export default function Home() {
             Suivez-nous sur Instagram et TikTok
           </p>
           <p className="mt-2 text-sm font-light text-[#79584a]">
-            Les moments doux du cafe, les chats du jour et les nouveautes.
+            Les moments doux du café, les chats du jour et les nouveautés.
           </p>
           <div className="mt-5 flex flex-wrap justify-center gap-3">
             <a
