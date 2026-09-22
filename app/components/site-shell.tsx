@@ -5,6 +5,7 @@ const rubriqueLinks = [
   ['Menu QR', '/menu'],
   ['Bilan', '/bilan'],
   ['Compte de resultat', '/compte-de-resultat'],
+  ['PESTEL', '/pestel'],
 ];
 
 export function KittyLogo() {
