@@ -127,8 +127,17 @@ body {
   }
   body {
     @apply bg-background text-foreground;
+    font-weight: 300;
   }
   html {
     @apply font-sans;
+    scroll-behavior: smooth;
+  }
+}
+
+@layer utilities {
+  .font-hand {
+    font-family: 'Comic Sans MS', 'Marker Felt', 'Trebuchet MS', cursive;
+    letter-spacing: 0;
   }
 }
