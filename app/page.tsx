@@ -129,31 +129,45 @@ export default function Home() {
             referrerPolicy="no-referrer-when-downgrade"
           />
         </div>
-        <div className="mt-6 rounded-[28px] border border-[#f1cbd2] bg-[#fff4f4] p-6 text-center shadow-[0_18px_40px_rgba(96,65,42,0.08)]">
+        <div className="mt-6 rounded-[28px] border border-[#f1cbd2] bg-[#fff4f4] p-6 text-center shadow-[0_18px_40px_rgba(96,65,42,0.08)] sm:p-8">
           <p className="font-hand text-4xl font-normal text-[#2f211c]">
             Suivez-nous sur Instagram et TikTok
           </p>
           <p className="mt-2 text-sm font-light text-[#79584a]">
             Les moments doux du café, les chats du jour et les nouveautés.
           </p>
-          <div className="mt-5 flex flex-wrap justify-center gap-3">
+          <div className="mt-6 grid gap-4 sm:grid-cols-2">
             <a
               href="https://www.instagram.com/"
               target="_blank"
               rel="noreferrer"
-              className="inline-flex items-center gap-2 rounded-full bg-white px-5 py-3 text-sm font-light text-[#5b3f32] shadow-sm hover:bg-[#ffe8ee]"
+              className="group flex items-center justify-center gap-4 rounded-[24px] border border-[#f1cbd2] bg-white px-6 py-5 text-left text-[#5b3f32] shadow-[0_12px_28px_rgba(96,65,42,0.08)] transition hover:-translate-y-0.5 hover:bg-[#ffe8ee] hover:shadow-[0_16px_34px_rgba(196,95,129,0.18)]"
             >
-              <Camera className="size-5 text-[#c45f81]" aria-hidden="true" />
-              Instagram
+              <span className="grid size-16 place-items-center rounded-full bg-[#ffe2ea] text-[#c45f81] transition group-hover:scale-105">
+                <Camera className="size-9" aria-hidden="true" />
+              </span>
+              <span>
+                <span className="block text-lg font-normal">Instagram</span>
+                <span className="block text-xs font-light text-[#9a6961]">
+                  photos, chats et nouveautés
+                </span>
+              </span>
             </a>
             <a
               href="https://www.tiktok.com/"
               target="_blank"
               rel="noreferrer"
-              className="inline-flex items-center gap-2 rounded-full bg-white px-5 py-3 text-sm font-light text-[#5b3f32] shadow-sm hover:bg-[#ffe8ee]"
+              className="group flex items-center justify-center gap-4 rounded-[24px] border border-[#ead7ca] bg-white px-6 py-5 text-left text-[#5b3f32] shadow-[0_12px_28px_rgba(96,65,42,0.08)] transition hover:-translate-y-0.5 hover:bg-[#fff1df] hover:shadow-[0_16px_34px_rgba(91,63,50,0.16)]"
             >
-              <Music2 className="size-5 text-[#2f211c]" aria-hidden="true" />
-              TikTok
+              <span className="grid size-16 place-items-center rounded-full bg-[#f6e4d5] text-[#2f211c] transition group-hover:scale-105">
+                <Music2 className="size-9" aria-hidden="true" />
+              </span>
+              <span>
+                <span className="block text-lg font-normal">TikTok</span>
+                <span className="block text-xs font-light text-[#9a6961]">
+                  moments doux en vidéo
+                </span>
+              </span>
             </a>
           </div>
         </div>
