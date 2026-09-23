@@ -7,6 +7,8 @@ const rubriqueLinks = [
   ['Compte de résultat', '/compte-de-resultat'],
   ['BFR', '/bfr'],
   ['Dossier projet', '/dossier-projet'],
+  ['4P', '/4p'],
+  ['Analyse des charges', '/analyse-des-charges'],
   ['PESTEL', '/pestel'],
 ];
 
@@ -36,7 +38,7 @@ export function SiteHeader() {
             Rubrique
             <ChevronDown className="size-4 transition group-open:rotate-180" />
           </summary>
-          <div className="absolute left-0 mt-3 w-72 rounded-[22px] border border-[#ead7ca] bg-[#fffaf4] p-3 text-[#4a352b] shadow-[0_18px_46px_rgba(74,53,43,0.18)]">
+          <div className="absolute left-0 mt-3 w-80 rounded-[22px] border border-[#ead7ca] bg-[#fffaf4] p-3 text-[#4a352b] shadow-[0_18px_46px_rgba(74,53,43,0.18)] sm:w-96">
             {rubriqueLinks.map(([label, href]) => (
               <a
                 key={label}
