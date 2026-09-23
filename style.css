@@ -302,6 +302,11 @@ a {
   font-size: 34px;
 }
 
+.social-icon svg {
+  width: 36px;
+  height: 36px;
+}
+
 .social-button.tiktok .social-icon {
   background: #f6e4d5;
 }
