@@ -7,6 +7,7 @@ const rubriqueLinks = [
   ['Compte de résultat', '/compte-de-resultat'],
   ['BFR', '/bfr'],
   ['Dossier projet', '/dossier-projet'],
+  ['Chatmallow', '/chatmallow'],
   ['4P', '/4p'],
   ['Analyse des charges', '/analyse-des-charges'],
   ['PESTEL', '/pestel'],

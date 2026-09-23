@@ -1,5 +1,27 @@
-import { Camera, Clock, Heart, MapPin, Music2, PawPrint } from 'lucide-react';
+import { Clock, Heart, MapPin, PawPrint } from 'lucide-react';
 import { KittyLogo, PageFrame, PaperCard } from './components/site-shell';
+
+function InstagramLogo() {
+  return (
+    <svg viewBox="0 0 24 24" className="size-9" aria-hidden="true">
+      <path
+        fill="currentColor"
+        d="M7.75 2h8.5A5.76 5.76 0 0 1 22 7.75v8.5A5.76 5.76 0 0 1 16.25 22h-8.5A5.76 5.76 0 0 1 2 16.25v-8.5A5.76 5.76 0 0 1 7.75 2Zm0 2A3.75 3.75 0 0 0 4 7.75v8.5A3.75 3.75 0 0 0 7.75 20h8.5A3.75 3.75 0 0 0 20 16.25v-8.5A3.75 3.75 0 0 0 16.25 4h-8.5Zm8.88 1.5a1.37 1.37 0 1 1 0 2.74 1.37 1.37 0 0 1 0-2.74ZM12 7.15A4.85 4.85 0 1 1 12 16.85 4.85 4.85 0 0 1 12 7.15Zm0 2A2.85 2.85 0 1 0 12 14.85 2.85 2.85 0 0 0 12 9.15Z"
+      />
+    </svg>
+  );
+}
+
+function TikTokLogo() {
+  return (
+    <svg viewBox="0 0 24 24" className="size-9" aria-hidden="true">
+      <path
+        fill="currentColor"
+        d="M16.6 2c.32 2.55 1.72 4.07 4.13 4.23v3.03a7.1 7.1 0 0 1-4.08-1.22v6.98c0 3.53-2.23 6.08-5.77 6.08-3.2 0-5.64-2.12-5.64-5.16 0-3.55 3.23-6.1 6.75-5.37v3.15c-1.43-.43-3.35.26-3.35 2.08 0 1.26.98 2.08 2.22 2.08 1.48 0 2.4-.9 2.4-2.76V2h3.34Z"
+      />
+    </svg>
+  );
+}
 
 export default function Home() {
   return (
@@ -77,7 +99,7 @@ export default function Home() {
         <div className="grid gap-6 rounded-[30px] border border-[#ead7ca] bg-[#fffaf4]/95 p-5 shadow-[0_18px_40px_rgba(96,65,42,0.1)] lg:grid-cols-[0.9fr_1.1fr] lg:p-7">
           <div className="overflow-hidden rounded-[24px] border border-[#f1cbd2] bg-white">
             <img
-              src="/chatmallow.png"
+              src="/chatmallow-photo.png"
               alt="Le Chat'mallow, spécialité du Kitty Café"
               className="h-full min-h-[360px] w-full object-cover"
             />
@@ -110,7 +132,7 @@ export default function Home() {
               </div>
             </div>
             <a
-              href="/chatmallow.pdf"
+              href="/chatmallow"
               className="mt-6 inline-flex w-fit rounded-full bg-[#5b3f32] px-5 py-3 text-sm font-light text-white shadow-sm hover:bg-[#7b5545]"
             >
               Voir la fiche produit
@@ -144,7 +166,7 @@ export default function Home() {
               className="group flex items-center justify-center gap-4 rounded-[24px] border border-[#f1cbd2] bg-white px-6 py-5 text-left text-[#5b3f32] shadow-[0_12px_28px_rgba(96,65,42,0.08)] transition hover:-translate-y-0.5 hover:bg-[#ffe8ee] hover:shadow-[0_16px_34px_rgba(196,95,129,0.18)]"
             >
               <span className="grid size-16 place-items-center rounded-full bg-[#ffe2ea] text-[#c45f81] transition group-hover:scale-105">
-                <Camera className="size-9" aria-hidden="true" />
+                <InstagramLogo />
               </span>
               <span>
                 <span className="block text-lg font-normal">Instagram</span>
@@ -160,7 +182,7 @@ export default function Home() {
               className="group flex items-center justify-center gap-4 rounded-[24px] border border-[#ead7ca] bg-white px-6 py-5 text-left text-[#5b3f32] shadow-[0_12px_28px_rgba(96,65,42,0.08)] transition hover:-translate-y-0.5 hover:bg-[#fff1df] hover:shadow-[0_16px_34px_rgba(91,63,50,0.16)]"
             >
               <span className="grid size-16 place-items-center rounded-full bg-[#f6e4d5] text-[#2f211c] transition group-hover:scale-105">
-                <Music2 className="size-9" aria-hidden="true" />
+                <TikTokLogo />
               </span>
               <span>
                 <span className="block text-lg font-normal">TikTok</span>
