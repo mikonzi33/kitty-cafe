@@ -6,6 +6,7 @@ const rubriqueLinks = [
   ['Bilan', '/bilan'],
   ['Compte de résultat', '/compte-de-resultat'],
   ['BFR', '/bfr'],
+  ['Dossier projet', '/dossier-projet'],
   ['PESTEL', '/pestel'],
 ];
 
