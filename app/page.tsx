@@ -100,13 +100,13 @@ export default function Home() {
           <div className="overflow-hidden rounded-[24px] border border-[#f1cbd2] bg-white">
             <img
               src="/chatmallow-photo.png"
-              alt="Le Chat'mallow, spécialité du Kitty Café"
+              alt="Le Chat'mallow, nouveauté du Kitty Café"
               className="h-full min-h-[360px] w-full object-cover"
             />
           </div>
           <div className="flex flex-col justify-center">
             <p className="font-hand text-sm text-[#b37575]">
-              spécialité de la maison
+              Nouveauté
             </p>
             <h2 className="font-hand mt-2 text-5xl font-normal leading-none text-[#2f211c]">
               Le Chat'mallow

@@ -7,7 +7,7 @@ export default function ChatmallowPage() {
       <section className="mx-auto max-w-5xl px-4 pb-16 pt-32 sm:px-6">
         <PaperCard>
           <p className="font-hand text-sm text-[#b37575]">
-            spécialité de la maison
+            Nouveauté
           </p>
           <h1 className="font-hand text-6xl font-normal text-[#2f211c]">
             Le Chat'mallow
