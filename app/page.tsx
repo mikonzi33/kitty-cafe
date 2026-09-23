@@ -73,6 +73,52 @@ export default function Home() {
         </PaperCard>
       </section>
 
+      <section className="mx-auto max-w-7xl px-4 pb-12 sm:px-6">
+        <div className="grid gap-6 rounded-[30px] border border-[#ead7ca] bg-[#fffaf4]/95 p-5 shadow-[0_18px_40px_rgba(96,65,42,0.1)] lg:grid-cols-[0.9fr_1.1fr] lg:p-7">
+          <div className="overflow-hidden rounded-[24px] border border-[#f1cbd2] bg-white">
+            <img
+              src="/chatmallow.png"
+              alt="Le Chat'mallow, spécialité du Kitty Café"
+              className="h-full min-h-[360px] w-full object-cover"
+            />
+          </div>
+          <div className="flex flex-col justify-center">
+            <p className="font-hand text-sm text-[#b37575]">
+              spécialité de la maison
+            </p>
+            <h2 className="font-hand mt-2 text-5xl font-normal leading-none text-[#2f211c]">
+              Le Chat'mallow
+            </h2>
+            <p className="mt-5 max-w-xl text-sm font-light leading-7 text-[#684d40]">
+              Un chocolat chaud gourmand avec topping de guimauves
+              caramélisées, accompagné d'un sablé en forme de patte de chat.
+              Une boisson signature douce, chaleureuse et pensée pour
+              l'expérience Kitty Café.
+            </p>
+            <div className="mt-6 grid gap-3 text-sm text-[#5b3f32] sm:grid-cols-3">
+              <div className="rounded-[18px] bg-[#fff4f4] p-4">
+                <span className="block font-light text-[#9a6961]">Prix</span>
+                <strong className="mt-1 block font-normal">9,50 € TTC</strong>
+              </div>
+              <div className="rounded-[18px] bg-[#fff4f4] p-4">
+                <span className="block font-light text-[#9a6961]">Objectif</span>
+                <strong className="mt-1 block font-normal">2 500 tasses/an</strong>
+              </div>
+              <div className="rounded-[18px] bg-[#fff4f4] p-4">
+                <span className="block font-light text-[#9a6961]">Marge</span>
+                <strong className="mt-1 block font-normal">forte rentabilité</strong>
+              </div>
+            </div>
+            <a
+              href="/chatmallow.pdf"
+              className="mt-6 inline-flex w-fit rounded-full bg-[#5b3f32] px-5 py-3 text-sm font-light text-white shadow-sm hover:bg-[#7b5545]"
+            >
+              Voir la fiche produit
+            </a>
+          </div>
+        </div>
+      </section>
+
       <section className="mx-auto max-w-7xl px-4 pb-14 sm:px-6">
         <div className="overflow-hidden rounded-[28px] border border-[#ead7ca] bg-[#fffaf4] p-3 shadow-[0_18px_40px_rgba(96,65,42,0.1)]">
           <iframe
